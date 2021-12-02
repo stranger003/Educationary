@@ -8,10 +8,10 @@
 	>
 
 <channel>
-	<title>Educationery</title>
+	<title>Educationary</title>
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
-	<description>Educationery</description>
+	<description>Educationary</description>
 	<lastBuildDate>Thu, 02 Dec 2021 09:22:57 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
