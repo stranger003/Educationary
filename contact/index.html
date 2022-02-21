@@ -4021,7 +4021,7 @@
                                                                             <button type="reset"
                                                                             name="wpforms[clear]" id="wpforms-clear-5" class="wpforms-clear" data-alt-text="CLear" data-submit-text="Clear" aria-live="assertive" value="Clear">Clear</button>
                                                                     </div> -->
-                                                                <form action="https://usebasin.com/f/45d54b839054" method="POST" enctype="multipart/form-data" id="form">
+                                                                <form action="https://usebasin.com/f/45d54b839054" method="POST" enctype="multipart/form-data" id="form1">
                                                                     <p style="color:#ffffff !important;">Name</p> <input type="text" name="name" required>
                                                                     <p style="margin-top: 5%; color:#ffffff !important;">Email</p> <input type="text" name="email" required>
                                                                     <p style="margin-top: 5%; color:#ffffff !important;">Message</p><textarea name="message" rows="6" cols="25" required></textarea><br />
@@ -4493,7 +4493,7 @@
         }, !1);
     </script>
     <script>
-        const form = document.getElementById("form");
+        const form = document.getElementById("form1");
         form.addEventListener("submit", (e) => {
             e.preventDefault();
             const formData = new FormData(form);
@@ -4516,7 +4516,7 @@
     </script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <script>
-        const form = document.getElementById("form");
+        const form = document.getElementById("form1");
         form.addEventListener("submit", () => {
             e.preventDefault();
             const formData = new FormData(form);
@@ -4533,8 +4533,8 @@
         });
     </script>
     <script>
-        var form = document.getElementById("form");
-        var formMessage = document.getElementById("form-message");
+        var form = document.getElementById("form1");
+        var formMessage = document.getElementById("form1-message");
 
         form.onsubmit = function(event) {
             event.preventDefault();
@@ -4556,7 +4556,7 @@
     </script>
     <script type="text/javascript">
         /*
-                                    <![CDATA[ */
+                                                                                    <![CDATA[ */
         var wpforms_settings = {
                 "val_required": "This field is required.",
                 "val_email": "Please enter a valid email address.",
