@@ -4504,14 +4504,9 @@
                     },
                     body: formData,
                 })
-                .then((response) => {
-                    if (response.status === 200) {
-                        console.log("success");
-                    } else {
-                        console.log("fail");
-                    }
-                })
-                .catch((error) => console.log(error));
+                .then(function(message) {
+                    alert("Mail has been sent successfully")
+                });
         });
     </script>
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
@@ -4561,7 +4556,7 @@
     </script>
     <script type="text/javascript">
         /*
-                                                                                                                                                                                                                                                                                                                                    <![CDATA[ */
+                                                                                                                                                                                                                                                                                                                                            <![CDATA[ */
         var wpforms_settings = {
                 "val_required": "This field is required.",
                 "val_email": "Please enter a valid email address.",
