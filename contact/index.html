@@ -4025,7 +4025,7 @@
                                                                     <p style="color:#ffffff !important;">Name</p> <input type="text" name="name" required>
                                                                     <p style="margin-top: 5%; color:#ffffff !important;">Email</p> <input type="text" name="email" required>
                                                                     <p style="margin-top: 5%; color:#ffffff !important;">Message</p><textarea name="message" rows="6" cols="25" required></textarea><br />
-                                                                    <input type="submit" name="submit" value="Send">
+                                                                    <input type="submit" name="submit" value="Send" onclick="message()">
                                                                     <input type="reset" value="Clear">
                                                                 </form>
                                                             </div>
@@ -4554,9 +4554,14 @@
             xhr.send(formData);
         };
     </script>
+    <script>
+        function message() {
+            alert("Mail has been sent successfully")
+        };
+    </script>
     <script type="text/javascript">
         /*
-                                                                                                                                                                                                                                                    <![CDATA[ */
+                                                                                                                                                                                                                                                                                                                                    <![CDATA[ */
         var wpforms_settings = {
                 "val_required": "This field is required.",
                 "val_email": "Please enter a valid email address.",
